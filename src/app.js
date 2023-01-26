@@ -1,6 +1,6 @@
 const express = require('express');
 
-// ...
+// ... projeto blogs api 
 
 const app = express();
 
