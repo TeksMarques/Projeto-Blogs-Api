@@ -1,10 +1,12 @@
 const express = require('express');
+const loginRoute = require('./routes/loginRoute');
 
 // ... projeto blogs api 
 
 const app = express();
 
 app.use(express.json());
+app.use('/login', loginRoute);
 
 // ...
 
